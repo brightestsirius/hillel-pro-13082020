@@ -70,15 +70,18 @@ let users = [
 		courses: [
 			{
 				title: 'Front-end Pro',
-				score: 10
+				score: 10,
+				lector: 'Leo Smith'
 			},
 			{
 				title: 'Java Enterprise',
-				score: 50
+				score: 50,
+				lector: 'David Smith'
 			},
 			{
 				title: 'QA',
-				score: 75
+				score: 75,
+				lector: 'Emilie Smith'
 			}
 		]
 	},
@@ -90,11 +93,13 @@ let users = [
 		courses: [
 			{
 				title: 'Front-end Pro',
-				score: 78
+				score: 78,
+				studentsScore: 79
 			},
 			{
 				title: 'Java Enterprise',
-				score: 85
+				score: 85,
+				studentsScore: 85
 			}
 		]
 	},
