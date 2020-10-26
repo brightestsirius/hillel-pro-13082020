@@ -1,0 +1,54 @@
+{
+	"users": [
+		{
+			"name": "Maks",
+			"age": 20,
+			"position": "student",
+			"icon": "https://raw.githubusercontent.com/brightestsirius/users/98f9575c19bbcabd6242e524a175e8892a4b4cc1/users/maks.svg",
+			"courses": [
+				{
+					"name": "Front-end Basic",
+					"rating": 55
+				},
+				{
+					"name": "UI/UX",
+					"rating": 100
+				},
+				{
+					"name": "Java",
+					"rating": 10
+				}
+			]
+		},
+		{
+			"name": "David",
+			"age": 22,
+			"position": "admin",
+			"icon": "https://raw.githubusercontent.com/brightestsirius/users/98f9575c19bbcabd6242e524a175e8892a4b4cc1/users/david.svg"
+		},
+		{
+			"name": "Eva",
+			"age": 18,
+			"position": "student",
+			"icon": "https://raw.githubusercontent.com/brightestsirius/users/98f9575c19bbcabd6242e524a175e8892a4b4cc1/users/eva.svg",
+			"courses": [
+				{
+					"name": "Front-end Pro",
+					"rating": 20
+				}
+			]
+		},
+		{
+			"name": "Jack",
+			"age": 30,
+			"position": "moderator",
+			"icon": "https://raw.githubusercontent.com/brightestsirius/users/98f9575c19bbcabd6242e524a175e8892a4b4cc1/users/jack.svg"
+		},
+		{
+			"name": "Lora",
+			"age": 25,
+			"position": "student",
+			"icon": "https://raw.githubusercontent.com/brightestsirius/users/98f9575c19bbcabd6242e524a175e8892a4b4cc1/users/lora.svg"
+		}
+	]
+}
