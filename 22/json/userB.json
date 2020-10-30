@@ -1,0 +1,12 @@
+{
+	"name": "Eva",
+	"age": 18,
+	"position": "student",
+	"icon": "https://raw.githubusercontent.com/brightestsirius/users/98f9575c19bbcabd6242e524a175e8892a4b4cc1/users/eva.svg",
+	"courses": [
+		{
+			"name": "Front-end Pro",
+			"rating": 20
+		}
+	]
+}
