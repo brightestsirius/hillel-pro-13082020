@@ -15,35 +15,7 @@
 			"name": "Jack Smith",
 			"age": 23,
 			"img": "https://www.flaticon.com/svg/static/icons/svg/2922/2922522.svg",
-			"role": "student",
-			"courses": [
-				{
-					"title": "Front-end Pro",
-					"mark": 20
-				},
-				{
-					"title": "Java Enterprise",
-					"mark": 100
-				}
-			]
-		},
-		{
-			"name": "Leo Smith",
-			"age": 253,
-			"img": "https://www.flaticon.com/svg/static/icons/svg/2922/2922719.svg",
-			"role": "lector",
-			"courses": [
-				{
-					"title": "Front-end Pro",
-					"score": 78,
-					"studentsScore": 79
-				},
-				{
-					"title": "Java Enterprise",
-					"score": 85,
-					"studentsScore": 85
-				}
-			]
-		},
+			"role": "student"
+		}
 	]
 }
