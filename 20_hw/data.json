@@ -9,13 +9,5 @@
 		[20,55],
 		[55,85],
 		[85,100]
-	],
-	"users": [
-		{
-			"name": "Jack Smith",
-			"age": 23,
-			"img": "https://www.flaticon.com/svg/static/icons/svg/2922/2922522.svg",
-			"role": "student"
-		}
 	]
 }
