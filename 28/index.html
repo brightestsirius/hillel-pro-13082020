@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 28</title>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<style>
+		.front-end{
+			border: 1px solid black;
+			padding: 10px;
+			margin: 10px 0;
+		}
+		.front-end[data-class=first]{
+			background: lightgray;
+		}
+		.front-end[data-class=second]{
+			background: lightblue;
+		}
+		.success{
+			background: green;
+			color: white;
+		}
+		.danger{
+			background: red;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+
+<div style="flot: left;">{{leftSidber}}</div>
+<div style="flot: right;">{{rightSidber}}</div>
+
+	<div id="app">
+
+		<p>{{x}}</p>
+		<input type="text" v-model="x" @input="onMyInput($event,x)">
+
+		<ul>
+			<li v-for="(item, key) in list" @click="removeItem(key)">{{item}}</li>
+		</ul>
+
+		<button type="button" @click="onClick">Click me</button>
+
+		<front-end :mytitle="x" mytext="success" btnname="Success" :number="list" :on-click="onClick"></front-end>
+		
+		<front-end :mytitle="x" mytext="danger" classname="second"></front-end>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
